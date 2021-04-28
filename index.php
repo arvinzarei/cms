@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="icon" href="assets/images/Dashboard.png">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -22,7 +23,6 @@
                 <span class="d-md-none"><i class="fas fa-ellipsis-h"></i></span>
             </section>
         </section>
-
 
         <section class="body-header">
             <section class="d-flex justify-content-between">
@@ -62,7 +62,7 @@
                                     <section class="media">
                                         <img class="notification-img" src="assets/images/avatar-2.jpg" alt="avatar">
                                         <section class="media-body pr-1">
-                                            <h5 class="notification-user">محمد هاشمی</h5>
+                                            <h5 class="notification-user">آروین زارعی</h5>
                                             <p class="notification-text">این یک متن تستی است</p>
                                             <p class="notification-time">30 دقیقه پیش</p>
                                         </section>
@@ -72,7 +72,7 @@
                                     <section class="media">
                                         <img class="notification-img" src="assets/images/avatar-2.jpg" alt="">
                                         <section class="media-body pr-1">
-                                            <h5 class="notification-user">محمد هاشمی</h5>
+                                            <h5 class="notification-user">آروین زارعی</h5>
                                             <p class="notification-text">این یک متن تستی است</p>
                                             <p class="notification-time">30 دقیقه پیش</p>
                                         </section>
@@ -82,7 +82,7 @@
                                     <section class="media">
                                         <img class="notification-img" src="assets/images/avatar-2.jpg" alt="">
                                         <section class="media-body pr-1">
-                                            <h5 class="notification-user">محمد هاشمی</h5>
+                                            <h5 class="notification-user">آروین زارعی</h5>
                                             <p class="notification-text">این یک متن تستی است</p>
                                             <p class="notification-time">30 دقیقه پیش</p>
                                         </section>
@@ -205,6 +205,233 @@
             </section>
         </section>
 </header>
+
+<!-------------------End  Header ------------------>
+<section class="body-container">
+    <aside class="sidebar">
+        <section class="siderbar-container">
+            <section class="sidebar-wrapper">
+                <a href="#" class="sidebar-link">
+                    <i class="fas fa-home"></i>
+                    <span>خانه</span>
+                </a>
+                <section class="sidebar-part-title">بخش محتوی</section>
+                <a href="#" class="sidebar-link">
+                    <i class="fas fa-bars"></i>
+                    <span>دسته ها</span>
+                </a>
+
+                <section class="sidebar-group-link">
+                    <section class="sidebar-dropdown-toggle">
+                        <i class="fas fa-chart-bar icon"></i> 
+                        <span>نوشته ها</span>
+                        <i class="fas fa-angle-left angle"></i>
+                    </section>
+                    <section class="sidebar-dropdown">
+                        <a href="#">مقالات</a>
+                        <a href="#">پست ها</a>
+                        <a href="#">دوره ها</a>
+                    </section>
+                </section>
+
+                <section class="sidebar-part-title">بخش کاربران</section>
+                <section class="sidebar-group-link">
+                    <section class="sidebar-dropdown-toggle">
+                        <i class="fas fa-user icon"></i> 
+                        <span> کاربران</span>
+                        <i class="fas fa-angle-left angle"></i>
+                    </section>
+                    <section class="sidebar-dropdown">
+                        <a href="#">ادمین</a>
+                        <a href="#">مدرس ها</a>
+                        <a href="#">دانشجو</a>
+                    </section>
+                </section>
+
+                <section class="sidebar-part-title">تنظیمات</section>
+                <section class="sidebar-group-link">
+                    <section class="sidebar-dropdown-toggle">
+                        <i class="fas fa-cogs icon"></i> 
+                        <span>تنظیمات منو</span>
+                        <i class="fas fa-angle-left angle"></i>
+                    </section>
+                    <section class="sidebar-dropdown">
+                        <a href="#">منوی هدر</a>
+                        <a href="#">منوی فوتر</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </aside>
+
+    <section class="main-body">
+        <section class="row">
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none d-block mb-4">
+                        <section class="card bg-custom-yellow text-white">
+                            <section class="card-body">
+                                <section class="d-flex justify-content-between">
+                                    <section class="info-box-body">
+                                        <h5>30,000 تومان</h5>
+                                        <p>سود خالص</p>
+                                    </section>
+                                    <section class="info-box-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="card-footer">
+                                <i class="fas fa-clock mx-2"></i> به روز رسانی شده در : 21:42 بعد از ظهر
+                            </section>
+                        </section>
+                    </a>
+                </section>
+        </section>
+    </section>
+</section>
+
+
+
 
 <!-- Scripts -->
 <script src="assets/js/jquery-3.5.1.min.js"></script>
