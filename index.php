@@ -17,37 +17,37 @@
 <header class="header">
         <section class="sidebar-header bg-gray">
             <section class="d-flex justify-content-between flex-md-row-reverse px-2">
-                <span class="d-inline d-md-none"><i class="fas fa-toggle-off"></i></span>
-                <span class="d-none d-md-inline"><i class="fas fa-toggle-on"></i></span>
+                <span id="sidebar-toggle-show" class="d-inline d-md-none pointer"><i class="fas fa-toggle-off"></i></span>
+                <span id="sidebar-toggle-hide" class="d-none d-md-inline pointer"><i class="fas fa-toggle-on"></i></span>
                 <span><img class="logo" src="assets/images/logo.png" alt=""></span>
-                <span class="d-md-none"><i class="fas fa-ellipsis-h"></i></span>
+                <span id="menu-toggle" class="d-md-none"><i class="fas fa-ellipsis-h"></i></span>
             </section>
         </section>
 
-        <section class="body-header">
+        <section id="body-header" class="body-header">
             <section class="d-flex justify-content-between">
                 <section>
                     <span class="mr-5">
-                        <span class="search-area d-none">
-                            <i class="fas fa-times pointer"></i>
-                            <input type="text" class="search-input">
+                        <span id="search-area" class="search-area d-none">
+                            <i id="search-area-hide" class="fas fa-times pointer"></i>
+                            <input id="search-input" type="text" class="search-input">
                             <i class="fas fa-search pointer"></i>
                         </span>
-                        <i class="fas fa-search p-1 d-none d-md-inline pointer"></i>
+                        <i id="search-toggle" class="fas fa-search p-1 d-none d-md-inline pointer"></i>
                     </span>
 
-                    <span class="pointer p-1 d-none d-md-inline mr-5">
-                        <i class="fas fa-compress d-none"></i>
-                        <i class="fas fa-expand "></i>
+                    <span id="full-screen" class="pointer p-1 d-none d-md-inline mr-5">
+                        <i id="screen-compress" class="fas fa-compress d-none"></i>
+                        <i id="screen-expand" class="fas fa-expand "></i>
                     </span>
                 </section>
 
                 <section>
                     <span class="ml-2 ml-md-4 position-relative">
-                        <span class="pointer">
+                        <span id="header-notification-toggle" class="pointer">
                             <i class="far fa-bell"></i><sup class="badge badge-danger">4</sup>
                         </span>
-                        <section class="header-notifictation rounded">
+                        <section id="header-notification" class="header-notifictation rounded">
                             <section class="d-flex justify-content-between">
                                 <span class="px-2">
                                     نوتیفیکیشن ها
@@ -93,10 +93,10 @@
                     </span>
 
                     <span class="ml-2 ml-md-4 position-relative">
-                        <span>
+                        <span id="header-comment-toggle" class="pointer">
                             <i class="far fa-comment-alt"><sup class="badge badge-danger">3</sup></i>
                          </span>
-                         <section class="header-comment">
+                         <section id="header-comment" class="header-comment">
                             <section class="border-bottom px-4">
                                 <input type="text" class="form-control form-control-sm my-4" placeholder="جستجو...">
                             </section>
@@ -174,13 +174,13 @@
                     </span>
 
                     <span ml-3 ml-md-5 position-relative>
-                        <span class="pointer">
+                        <span id="header-profile-toggle" class="pointer">
                             <img class="header-avatar" src="assets/images/avatar-2.jpg" alt="avatar">
                             <span class="header-username"> آروین زارعی </span>
                             <i class="fas fa-angle-down"></i>
                         </span>
 
-                        <section class="header-profile rounded">
+                        <section id="header-profile" class="header-profile rounded">
                             <section class="list-group rounded">
                                 <a href="#" class="list-group-item list-group-item-action header-profile-link">
                                     <i class="fas fa-cog"> </i> تنظیمات
@@ -208,7 +208,7 @@
 
 <!-------------------End  Header ------------------>
 <section class="body-container">
-    <aside class="sidebar">
+    <aside id="sidebar" class="sidebar">
         <section class="siderbar-container">
             <section class="sidebar-wrapper">
                 <a href="#" class="sidebar-link">
@@ -243,8 +243,8 @@
                     </section>
                     <section class="sidebar-dropdown">
                         <a href="#">ادمین</a>
-                        <a href="#">مدرس ها</a>
-                        <a href="#">دانشجو</a>
+                        <a href="#">کاربر ویژه</a>
+                        <a href="#">کاربر عادی</a>
                     </section>
                 </section>
 
@@ -264,7 +264,7 @@
         </section>
     </aside>
 
-    <section class="main-body">
+    <section id="main-body" class="main-body">
         <section class="row">
                 <section class="col-lg-3 col-md-6 col-12">
                     <a href="#" class="text-decoration-none d-block mb-4">
@@ -272,8 +272,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>پست ها</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -292,8 +292,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>نظرات</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -312,8 +312,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>کاربران</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -332,8 +332,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>بازدید پست ها</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -352,8 +352,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>منو ها</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -372,8 +372,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>محصولات</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -392,8 +392,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>دسته بندی ها</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
@@ -412,8 +412,8 @@
                             <section class="card-body">
                                 <section class="d-flex justify-content-between">
                                     <section class="info-box-body">
-                                        <h5>30,000 تومان</h5>
-                                        <p>سود خالص</p>
+                                        <h5>میزان فروش</h5>
+                                        <p>جمع کل</p>
                                     </section>
                                     <section class="info-box-icon">
                                         <i class="fas fa-chart-line"></i>
